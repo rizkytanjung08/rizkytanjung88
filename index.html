@@ -3,67 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Veronika</title>
+    <title>Web Portfolio | Rizky Tanjung</title>
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <div class="logo">Rizky Tanjung.</div>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
+    <header class="navbar">
+        <div class="logo">VM<span>Dev</span></div>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+        </nav>
+        <button class="btn-contact">Hubungi Saya</button>
+    </header>
 
-<section id="home" class="hero">
-    <h1>Hi, I'm <span>Rizky Tanjung</span></h1>
-    <p>Web Developer & UI Designer</p>
-    <a href="#projects" class="btn">See My Work</a>
-</section>
-
-<section id="about" class="about">
-    <div class="about-container">
-        <img src="rizkytanjung.JPG" alt="Profile">
-        <div>
-            <h2>About Me</h2>
-            <p>
-                Saya seorang mahasiswa yang sedang fokus belajar web development 
-                dan pengembangan aplikasi Android. Saya suka membuat desain yang 
-                modern dan clean.
-            </p>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Solusi Digital Modern & Profesional</h1>
+            <p>Membangun website dan aplikasi Android dengan desain clean, responsif, dan performa optimal.</p>
+            <div class="hero-buttons">
+                <button class="btn-primary">Mulai Proyek</button>
+                <button class="btn-secondary">Lihat Portfolio</button>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section id="projects" class="projects">
-    <h2>My Projects</h2>
-    <div class="project-grid">
+    <main class="container" id="services">
+        <h2 class="section-title">Layanan Unggulan</h2>
+        <section class="features-grid">
+            <article class="card featured">
+                <div class="icon">🚀</div>
+                <h3>Web Development</h3>
+                <p>Pembuatan website modern dengan struktur clean dan optimasi performa.</p>
+            </article>
+            <article class="card">
+                <div class="icon">📱</div>
+                <h3>Android Development</h3>
+                <p>Pengembangan aplikasi Android menggunakan Android Studio.</p>
+            </article>
+            <article class="card">
+                <div class="icon">🎨</div>
+                <h3>UI/UX Design</h3>
+                <p>Desain antarmuka profesional yang fokus pada pengalaman pengguna.</p>
+            </article>
+        </section>
+    </main>
 
-        <div class="card">
-            <h3>Aplikasi Tiket Bioskop</h3>
-            <p>Aplikasi Android Studio untuk pemesanan tiket bioskop online.</p>
-        </div>
+    <section class="container" id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <section class="features-grid">
+            <article class="card">
+                <h3>Aplikasi Tiket Bioskop</h3>
+                <p>Aplikasi Android untuk pemesanan tiket bioskop dengan sistem booking kursi.</p>
+            </article>
+            <article class="card">
+                <h3>Website Portfolio</h3>
+                <p>Website personal modern menggunakan HTML, CSS, dan JavaScript.</p>
+            </article>
+        </section>
+    </section>
 
-        <div class="card">
-            <h3>Website Portfolio</h3>
-            <p>Website personal modern menggunakan HTML, CSS, dan JS.</p>
-        </div>
+    <footer class="footer">
+        <p>&copy; 2026 <strong>Rizky Tanjung</strong>. All Rights Reserved.</p>
+    </footer>
 
-    </div>
-</section>
-
-<section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <p>Email: rizkytanjun882004</p>
-</section>
-
-<script src="script.js"></script>
 </body>
 </html>
