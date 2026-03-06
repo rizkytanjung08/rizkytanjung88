@@ -1,12 +1,16 @@
-window.addEventListener("scroll", function(){
-    const cards = document.querySelectorAll(".card");
-    cards.forEach(card=>{
-        const position = card.getBoundingClientRect().top;
-        const screenPosition = window.innerHeight / 1.3;
+// smooth scroll
 
-        if(position < screenPosition){
-            card.style.opacity = 1;
-            card.style.transform = "translateY(0)";
-        }
-    });
+document.querySelectorAll("nav a").forEach(link => {
+
+link.addEventListener("click", function(e){
+
+e.preventDefault();
+
+document.querySelector(this.getAttribute("href"))
+.scrollIntoView({
+behavior:"smooth"
+});
+
+});
+
 });
