@@ -4,99 +4,172 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Portfolio Rizky Tanjung</title>
+<title>Portfolio | Rizky Tanjung</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-<header class="navbar">
-    <div class="logo">🌊 Rizky Tanjung</div>
+<canvas id="particles"></canvas>
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
+<nav class="navbar">
 
+<div class="logo">Rizky<span>Tanjung</span></div>
 
-<section id="home" class="hero">
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
 
-<div class="hero-content">
+<a href="#contact" class="btn">Hire Me</a>
 
-<h1>Halo, Saya <span>Rizky Tanjung</span></h1>
+</nav>
+
+<section id="home" class="home">
+
+<div class="home-container">
+
+<div class="home-left">
+
+<h4>HELLO, Saya</h4>
+<h1><span>Rizky Tanjung</span></h1>
 
 <p>
-Mahasiswa Program Studi <b>Sistem Informasi</b> Semester 4  
-yang tertarik dalam pengembangan website dan teknologi digital.
+Mahasiswa Sistem Informasi semester 4 yang tertarik pada
+pengembangan website modern, UI/UX, dan teknologi digital.
+Saya senang belajar membuat tampilan web yang menarik,
+responsive, dan interaktif.
 </p>
 
-<button class="btn">Lihat Portfolio</button>
+</div>
+
+<div class="home-right">
+
+<div class="home-card">
+
+<img src="foto-rizky.jpg" alt="Profile">
+
+<h3>Semester 4</h3>
+<p>Sistem Informasi</p>
+
+</div>
+
+</div>
 
 </div>
 
 </section>
-
 
 <section id="about" class="section">
 
-<h2>Tentang Saya</h2>
+<h2 class="title">About Me</h2>
+
+<div class="grid">
+
+<div class="card">
 
 <p>
-Saya adalah mahasiswa Sistem Informasi yang sedang belajar
-pengembangan web menggunakan HTML, CSS, dan JavaScript.
-Saya memiliki minat dalam membuat website dengan desain modern
-dan pengalaman pengguna yang baik.
+Saya adalah mahasiswa Sistem Informasi yang memiliki minat
+besar dalam dunia teknologi khususnya Web Development.
+Saya terus belajar membuat website yang modern,
+responsif, dan memiliki desain yang menarik.
 </p>
 
-</section>
+</div>
 
+</div>
+
+</section>
 
 <section id="portfolio" class="section">
 
-<h2>Portfolio</h2>
+<h2 class="title">My Portfolio</h2>
 
-<div class="card-container">
+<div class="grid">
 
 <div class="card">
+
 <h3>Website Biodata</h3>
-<p>Membuat website biodata menggunakan HTML dan CSS.</p>
+
+<p>
+Membuat website biodata pribadi menggunakan HTML
+dan CSS dengan desain yang modern dan responsive.
+</p>
+
 </div>
 
 <div class="card">
-<h3>Desain UI Website</h3>
-<p>Membuat tampilan website modern dan responsive.</p>
-</div>
 
-<div class="card">
-<h3>Belajar JavaScript</h3>
-<p>Membuat website interaktif menggunakan JavaScript.</p>
+<h3>UI Website Portfolio</h3>
+
+<p>
+Membuat desain portfolio website dengan layout
+modern menggunakan CSS dan JavaScript.
+</p>
+
 </div>
 
 </div>
 
 </section>
 
+<section id="skills" class="section">
+
+<h2 class="title">Skills</h2>
+
+<div class="grid">
+
+<div class="skill-card">
+<h3>HTML</h3>
+<p>Membangun struktur website.</p>
+</div>
+
+<div class="skill-card">
+<h3>CSS</h3>
+<p>Design modern dan responsive.</p>
+</div>
+
+<div class="skill-card">
+<h3>JavaScript</h3>
+<p>Membuat website lebih interaktif.</p>
+</div>
+
+</div>
+
+</section>
 
 <section id="contact" class="section">
 
-<h2>Contact</h2>
+<h2 class="title">Contact Me</h2>
 
-<p>Email : rizkytanjung@email.com</p>
-<p>Instagram : @rizkytanjung</p>
+<div class="card contact-card">
+
+<form>
+
+<input type="text" placeholder="Nama">
+
+<input type="email" placeholder="Email">
+
+<textarea placeholder="Pesan"></textarea>
+
+<button type="submit" class="btn">Send Message</button>
+
+</form>
+
+</div>
 
 </section>
 
+<footer class="footer">
 
-<footer>
-
-<p>© 2026 Rizky Tanjung | Sistem Informasi</p>
+© 2026 Portfolio Rizky Tanjung
 
 </footer>
 
